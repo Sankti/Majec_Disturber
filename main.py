@@ -6,6 +6,7 @@ running = False
 window = Tk()
 window.title("Majec Disturber")
 window.geometry('300x360')
+window.iconbitmap('icon_.ico')
 
 majec1_img = PhotoImage(file="img\Majec_1.gif")
 majec1_photo_label = Label(window, image=majec1_img)
